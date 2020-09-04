@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
 
 body {
-    padding: 0 2%;
+    margin: 0;
+    padding: 0;
     background: whitesmoke;
     font-family: 'News Cycle', sans-serif;
 }
@@ -11,6 +12,7 @@ img{
     object-fit: cover;
 }
 section{
+    padding: 0 2%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:3em;
